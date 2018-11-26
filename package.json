@@ -2,8 +2,6 @@
   "name": "@s2a/push-notification",
   "version": "1.0.0",
   "description": "push-notification is a module used to send push notification.",
-  "license": "UNLICENSED",
-  "main": "index.js",
   "keywords": [
     "serverless",
     "lambda",
@@ -11,6 +9,16 @@
     "push-notification",
     "notification"
   ],
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/S2A-IO/push-notification.git"
+  },
+  "scripts": {},
+  "author": {
+    "name": "RIKSOF (Private) Limited",
+    "email": "info@riksof.com"
+  },
   "contributors": [
     {
       "name": "Khurram Ali",
@@ -25,6 +33,7 @@
       "email": "info@riksof.com"
     }
   ],
+  "homepage": "https://s2a.io",
   "dependencies": {
   },
   "peerDependencies": {
