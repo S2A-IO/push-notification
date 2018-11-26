@@ -13,11 +13,11 @@ npm install bluebird fcm-push --save
 ```
 ## Usage Example
 ```
-// Please change the parameters with valid values and parameters to run the test case
+// Please change the parameters with valid values and parameters to run the case
 data.env = {
   serverKey: 'serverKey'
 };
-// Please change the parameters with valid values and parameters to run the test case
+// Please change the parameters with valid values and parameters to run the case
 data.current = {
   to: 'deviceId',
   notification: {
@@ -36,7 +36,7 @@ data.current = {
   ```
 const pushNotification = require('./../server/index');
 
-pushNotification.handler(incorrectParams, context, function testHandler ( error, res) {
+pushNotification.handler(data, context, function testHandler ( error, res) {
   if ( error ) {
     console.log('error',error);
   } else {
